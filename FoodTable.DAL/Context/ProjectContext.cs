@@ -16,7 +16,7 @@ namespace FoodTable.DAL.Context
     public class ProjectContext : DbContext
     {
         public ProjectContext()
-        {
+        {//
             Database.Connection.ConnectionString = "Server=302--10;Database=FoodTable;uid=sa;pwd=1234;";
         }
 
